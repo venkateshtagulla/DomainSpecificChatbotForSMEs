@@ -1,0 +1,65 @@
+/* Light Theme */
+.theme-light {
+    --primary-color: #4a5568;
+    --secondary-color: #e2e8f0;
+    --text-color: #2d3748;
+    --bot-message-bg: #edf2f7;
+    --user-message-bg: #4299e1;
+    --gradient-bg: linear-gradient(135deg, #f7fafc 0%, #e2e8f0 100%);
+    --header-bg: #ffffff;
+    --chat-container-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+    --input-border: #e2e8f0;
+    --input-focus-border: #4a5568;
+    --send-button-bg: #4a5568;
+    --send-button-hover: #2d3748;
+    --chat-bg: #f7fafc;
+    --message-text-light: #ffffff;
+    --message-text-dark: #2d3748;
+    --scrollbar-thumb: #cbd5e0;
+    --scrollbar-track: #edf2f7;
+    --message-font-size: 1rem;
+}
+
+/* Dark Theme */
+.theme-dark {
+    --primary-color: #60a5fa;
+    --secondary-color: #1f2937;
+    --text-color: #f3f4f6;
+    --bot-message-bg: #1f2937;
+    --user-message-bg: #2563eb;
+    --gradient-bg: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    --header-bg: #111827;
+    --chat-container-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+    --input-border: #374151;
+    --input-focus-border: #60a5fa;
+    --send-button-bg: #2563eb;
+    --send-button-hover: #1d4ed8;
+    --chat-bg: #0f172a;
+    --message-text-light: #ffffff;
+    --message-text-dark: #f3f4f6;
+    --scrollbar-thumb: #4b5563;
+    --scrollbar-track: #1f2937;
+    --message-font-size: 1.125rem;
+}
+
+/* Nature Theme */
+.theme-nature {
+    --primary-color: #2f855a;
+    --secondary-color: #c6f6d5;
+    --text-color: #22543d;
+    --bot-message-bg: #f0fff4;
+    --user-message-bg: #48bb78;
+    --gradient-bg: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%);
+    --header-bg: #ffffff;
+    --chat-container-shadow: 0 12px 28px rgba(47, 133, 90, 0.1);
+    --input-border: #9ae6b4;
+    --input-focus-border: #48bb78;
+    --send-button-bg: #2f855a;
+    --send-button-hover: #276749;
+    --chat-bg: #f0fff4;
+    --message-text-light: #ffffff;
+    --message-text-dark: #22543d;
+    --scrollbar-thumb: #9ae6b4;
+    --scrollbar-track: #f0fff4;
+    --message-font-size: 1rem;
+}

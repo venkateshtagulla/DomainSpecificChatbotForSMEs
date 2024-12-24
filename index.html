@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain Chatbot</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/themes.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+</head>
+<body class="theme-dark">
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="bot-avatar animate__animated animate__bounceIn">
+                <img src="src/assets/bot-avatar.svg" alt="Bot Avatar">
+            </div>
+            <h2>Domain Chatbot</h2>
+            <div class="theme-switcher">
+                <select id="themeSelect" class="form-select">
+                    <option value="theme-dark">Dark Theme</option>
+                    <option value="theme-light">Light Theme</option>
+                    <option value="theme-nature">Nature Theme</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <!-- Messages will be inserted here -->
+        </div>
+
+        <div class="chat-input-container">
+            <div class="input-group">
+                <input type="text" 
+                       id="userInput" 
+                       class="form-control custom-input" 
+                       placeholder="How can I help you today?"
+                       autocomplete="off">
+                <button class="btn btn-primary send-button" id="sendButton">
+                    <svg class="send-icon" viewBox="0 0 24 24">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="src/js/main.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
